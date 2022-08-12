@@ -1,6 +1,5 @@
 flask_socketio
 flask
-tkinter
 pillow
 flask_cors
 numpy
