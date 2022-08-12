@@ -1,5 +1,5 @@
 gunicorn
-flask_socketio
+flask-socketio
 flask
 pillow
 flask_cors
