@@ -2,7 +2,6 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
 import time
 import io
-from tkinter import *
 from PIL import Image
 import base64,cv2
 import numpy as np
