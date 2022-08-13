@@ -40,16 +40,6 @@ def readb64(base64_string):
     # return cv2.cvtColor(np.array(pimg), cv2.COLOR_BGR2GRAY)
     return pimg
 
-# def moving_average(x):
-#     return np.mean(x)
-
-
-# @socketio.on('catch-frame')
-# def catch_frame(data):
-
-#     # emit('response_back', data)
-#     emit('response_back', "Response Back on (catch-frame)")  
-
 
 @socketio.on('image')
 def image(data_image):
