@@ -296,7 +296,7 @@ def image(data_image):
     emit('response_back', new_image_string)
     # emit('response_back', img)
 
-cv2.destroyAllWindows()
+# cv2.destroyAllWindows()
 if __name__ == '__main__':
     socketio.run(app)
    
